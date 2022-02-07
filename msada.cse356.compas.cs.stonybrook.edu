@@ -1,7 +1,7 @@
 server {
   listen 80;
 
-  root {{ document_root }}/{{ app_root }};
+  root {{ document_root }};
   index hw0.html;
 
   server_name {{ server_name }};
