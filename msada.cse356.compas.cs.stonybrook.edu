@@ -1,10 +1,11 @@
 server {
   listen 80;
+  listen [::]:80;
 
-  root {{ document_root }};
+  root /var/www/msada.cse356.compas.cs.stonybrook.edu;
   index hw0.html;
 
-  server_name {{ server_name }};
+  server_name msada.cse356.compas.cs.stonybrook.edu www.msada.cse356.compas.cs.stonybrook.edu;
   
   location / {
    default_type "text/html";
