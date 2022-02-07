@@ -2,7 +2,7 @@ server {
   listen 80;
   listen [::]:80;
 
-  root /var/www/msada.cse356.compas.cs.stonybrook.edu;
+  root /var/www/msada.cse356.compas.cs.stonybrook.edu/html;
   index hw0.html;
 
   server_name msada.cse356.compas.cs.stonybrook.edu www.msada.cse356.compas.cs.stonybrook.edu;
